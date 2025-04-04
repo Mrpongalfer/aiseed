@@ -1,0 +1,15 @@
+steps:
+  - type: event
+    params:
+      event_type: "system_metrics"
+      data: {}
+  - type: service_call
+    params:
+      service_name: "stats_aggregator"
+      method_name: "aggregate_stats"
+  - type: decision
+    params:
+      type: "rule_based"
+      rules:
+        - condition: lambda x: x["cpu_percent"] > 80
+          action: "Trigger optimization"

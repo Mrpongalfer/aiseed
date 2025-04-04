@@ -1,0 +1,24 @@
+{
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/nexus_seed.log"
+  },
+  "kernel": {
+    "snapshot_interval_sec": 300,
+    "snapshot_location": "persistence/snapshot.pkl"
+  },
+  "persistence": {
+    "type": "postgresql",
+    "connection_string": "postgresql://user:password@localhost:5432/nexusdb"
+  },
+  "services": {
+    "SystemMonitorService": {
+      "enabled": true,
+      "publish_interval_sec": 5
+    },
+    "StatsAggregatorService": {
+      "enabled": true,
+      "aggregation_interval_sec": 10
+    }
+  }
+}

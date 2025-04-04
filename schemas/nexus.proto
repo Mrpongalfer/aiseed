@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package nexus;
+
+service NexusService {
+  rpc PublishMetrics (MetricsRequest) returns (MetricsResponse);
+}
+
+message MetricsRequest {
+  string service_name = 1;
+  map<string, string> metrics = 2;
+}
+
+message MetricsResponse {
+  bool success = 1;
+}

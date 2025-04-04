@@ -1,0 +1,10 @@
+{
+  "environment": "development",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "secure_user",
+    "password": "correct_password",
+    "database_name": "aiseed_db"
+  }
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/pong/Desktop/AIseed/nexus_seed/kernel.py", line 4, in <module>
+    from nexus_seed.services.main_brain import MainBrain
+  File "/home/pong/Desktop/AIseed/nexus_seed/services/main_brain.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

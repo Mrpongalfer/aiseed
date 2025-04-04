@@ -1,0 +1,261 @@
+[
+    {
+        "type": "os_info"
+    },
+    {
+        "type": "test_event",
+        "data": "Simulated Event"
+    },
+    {
+        "type": "self_debug"
+    },
+    {
+        "type": "self_heal"
+    },
+    {
+        "type": "generate_code",
+        "params": {
+            "prompt": ""
+        }
+    },
+    {
+        "type": "self_debug"
+    },
+    {
+        "type": "self_debug"
+    },
+    {
+        "type": "evolve_blueprint"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "evolve_blueprint"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "evolve_blueprint"
+    },
+    {
+        "type": "network_config"
+    },
+    {
+        "type": "list_files",
+        "params": {
+            "directory": ""
+        }
+    },
+    {
+        "type": "optimize_system"
+    },
+    {
+        "type": "optimize_system"
+    },
+    {
+        "type": "evolve_blueprint"
+    },
+    {
+        "type": "evolve_blueprint"
+    },
+    {
+        "type": "optimize_system"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "self_debug"
+    },
+    {
+        "type": "chat_message",
+        "content": "sup"
+    },
+    {
+        "type": "list_files",
+        "params": {
+            "directory": ""
+        }
+    },
+    {
+        "type": "network_config"
+    },
+    {
+        "type": "generate_code",
+        "params": {
+            "prompt": ""
+        }
+    },
+    {
+        "type": "chat_message",
+        "content": "help"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "sandbox_test",
+        "params": {
+            "code": ""
+        }
+    },
+    {
+        "type": "optimize_system"
+    },
+    {
+        "type": "optimize_system"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "network_config"
+    },
+    {
+        "type": "test_event",
+        "data": "Simulated Event"
+    },
+    {
+        "type": "self_heal"
+    },
+    {
+        "type": "os_info"
+    },
+    {
+        "type": "os_info"
+    },
+    {
+        "type": "self_debug"
+    },
+    {
+        "type": "self_heal"
+    },
+    {
+        "type": "generate_code",
+        "params": {
+            "prompt": ""
+        }
+    },
+    {
+        "type": "os_info"
+    },
+    {
+        "type": "deploy_ai_agent",
+        "params": {
+            "task": "list_files",
+            "params": {
+                "directory": "."
+            }
+        }
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "test_event",
+        "data": "Simulated Event"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    },
+    {
+        "type": "ai_agent",
+        "task": "list_files",
+        "result": "Files in .: ['config_files', 'main.py', 'Dockerfile', 'logs', '.env_example', 'test_system.py', 'AIseed.code-workspace', 'nexus_seed', 'config', 'persistence', 'blueprints', '.venv', 'requirements.txt', 'nexusseed.sh', 'startup.sh', 'schemas', 'nexus_seed_config.json', 'cli', 'docker-compose.yml', 'reorganize_workspace.sh', '.env']"
+    }
+]

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package stats;
+
+service StatsService {
+  rpc PublishMetrics (MetricsRequest) returns (MetricsResponse);
+}
+
+message MetricsRequest {
+  string service_name = 1;
+  map<string, float> metrics = 2;
+}
+
+message MetricsResponse {
+  string status = 1;
+  string message = 2;
+}

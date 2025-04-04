@@ -1,0 +1,75 @@
+{
+  "system_name": "AIseed",
+  "version": "1.0.0",
+  "log_level": "INFO",
+  "services": {
+    "system_monitor": {
+      "publish_interval_sec": 5,
+      "enabled": true
+    },
+    "stats_aggregator": {
+      "aggregation_interval_sec": 10,
+      "enabled": true
+    }
+  },
+  "memory": {
+    "filepath": "/home/pong/Desktop/AIseed/nexus_seed/memory.json"
+  },
+  "logs": {
+    "optimization_log": "/home/pong/Desktop/AIseed/logs/optimization.log"
+  },
+  "nats": {
+    "url": "${NATS_URL}"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "secure_user",
+    "password": "correct_password",
+    "database_name": "aiseed_db",
+    "db_url": "postgresql://secure_user:correct_password@localhost:5432/aiseed_db"
+  },
+  "workflows_dir": "/home/pong/Desktop/AIseed/config/workflows",
+  "core_team": [
+    {
+      "name": "Tony Stark",
+      "domain": "engineering"
+    },
+    {
+      "name": "Rick Sanchez",
+      "domain": "science"
+    },
+    {
+      "name": "Rocket Raccoon",
+      "domain": "tactics"
+    },
+    {
+      "name": "Harley Quinn",
+      "domain": "psychology"
+    },
+    {
+      "name": "Momo Ayase",
+      "domain": "paranormal"
+    },
+    {
+      "name": "Makima",
+      "domain": "control"
+    },
+    {
+      "name": "Power",
+      "domain": "chaos"
+    },
+    {
+      "name": "Yoda",
+      "domain": "wisdom"
+    },
+    {
+      "name": "Doctor Strange",
+      "domain": "magic"
+    },
+    {
+      "name": "Lucy",
+      "domain": "cybernetics"
+    }
+  ]
+}

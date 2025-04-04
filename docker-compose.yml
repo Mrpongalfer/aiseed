@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:14
+    container_name: aiseed_db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-secure_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-correct_password}
+      POSTGRES_DB: ${POSTGRES_DB:-aiseed_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    restart: always
+
+  nats:
+    image: nats:2.9.2
+    container_name: aiseed_nats
+    ports:
+      - "4222:4222"
+    command: ["-js"]
+    restart: always
+
+volumes:
+  db_data:
